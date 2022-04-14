@@ -1,0 +1,3 @@
+[submodule "kcpplib"]
+	path = kcpplib
+	url = https://github.com/gmh5225/kcpplib
