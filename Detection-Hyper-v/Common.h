@@ -8,5 +8,13 @@ namespace build_17763 {
 
 } // namespace build_17763
 
+namespace build_22000 {
+// Win11_XXXX_22000
+
+// X64 10.0.22000.593
+#include "ntheaders\Win11_XXXX_22000\x64\System32\ntoskrnl.exe\ntoskrnl.exe\ALL.h"
+
+} // namespace build_22000
+
 void
 DetectionHVByKPRCB(int &PowerStateHypervisor, int &PowerStateHvTargetState);
