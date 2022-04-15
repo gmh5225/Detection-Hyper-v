@@ -6,7 +6,7 @@ void
 DetectionHVByKPRCB(int &PowerStateHypervisor, int &PowerStateHvTargetState)
 {
     auto PcrPtr = (build_17763::KPCR *)KeGetPcr();
-    auto PrcbPtr = &(PcrPtr->Prcb);
+    auto PrcbPtr = PcrPtr->CurrentPrcb;
     dprintf("PcrPtr=%p\n", PcrPtr);
     dprintf("PrcbPtr=%p\n", PrcbPtr);
 
