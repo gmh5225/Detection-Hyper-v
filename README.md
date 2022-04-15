@@ -1,6 +1,7 @@
 # Detection-Hyper-v
 
-## KPRCB
+## Method
+> KPRCB 
 ```C++
 void
 DetectionHVByKPRCB(int &PowerStateHypervisor, int &PowerStateHvTargetState)
